@@ -12,7 +12,7 @@ st.set_page_config(
 
 # Load Model
 model = pickle.load(open('churn_model.pkl', 'rb'))
-model_columns = pickle.load(open('models/model_columns.pkl', 'rb'))
+model_columns = pickle.load(open('model_columns.pkl', 'rb'))
 
 # Custom CSS
 st.markdown("""
